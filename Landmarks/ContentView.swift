@@ -11,8 +11,18 @@ struct ContentView: View {
     var body: some View {
         VStack {
            
-            Text("Fort Whyte Alive")
-                .font(.title)
+            VStack(alignment: .leading) {
+                Text("Moraine Lake")
+                    .font(.title)
+                HStack {
+                    Text("Banff National Park")
+                        .font(.subheadline)
+                    
+                    Text("Alberta")
+                        .font(.subheadline)
+                }
+            }
+            .padding()
                 
                 
         }
