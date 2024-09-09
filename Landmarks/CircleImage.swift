@@ -9,7 +9,13 @@ import SwiftUI
 
 struct CircleImage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("mountainview")
+            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .overlay{
+                Circle().stroke(.white,lineWidth: 5)
+            }
+            .shadow(radius: 7)
+        
     }
 }
 

@@ -17,7 +17,7 @@ struct ContentView: View {
                 HStack {
                     Text("Banff National Park")
                         .font(.subheadline)
-                    
+                    Spacer()
                     Text("Alberta")
                         .font(.subheadline)
                 }
